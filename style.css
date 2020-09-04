@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #ebebeb;
+}
+/*asdfasdf*/
+.boxContainer {
+    display: flex;
+    flex-flow: row wrap;
+    width: 50vw;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+}
+.box {
+    height: 10vw;
+    width: 10vw;
+    background-color: #2d2d2d;
+    margin: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+.clicked {
+    height: 10vw;
+    width: 10vw;
+    background-color: #8e8e8e;
+    margin: 10px 10px 10px 10px;
+    cursor: pointer;
+}
